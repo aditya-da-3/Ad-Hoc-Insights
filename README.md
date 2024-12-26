@@ -20,7 +20,7 @@ Known for innovation, AtliQ has expanded worldwide, bringing advanced technology
 - [Data Model](#data-model)
 - [Ad Hoc Requests](#ad-hoc-requests)
 - [SQL Queries](#sql-queries)
-- [Query Ouput & Insights](#query-output-%-insights)
+- [Query Output & Insights](#query-output-%-insights)
 - [Recommendations](#recommendations)
 
 ## Project Presentation (Video)
@@ -28,203 +28,345 @@ Known for innovation, AtliQ has expanded worldwide, bringing advanced technology
 <p align="center">
   <a href="https://www.youtube.com/watch?v=jQbHM1GvCmE" target="_blank" rel="noopener noreferrer">
     <img 
-      src="https://github.com/aditya-da-3/Business-Insights-360/blob/main/Images/BI%20360%20Yotube%20Thumbnail.png" 
+      src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Ad%20Hoc%20Insights%20Youtube%20Thumbnail.png" 
       alt="Presentation Preview" 
       style="width: 70%; max-width: 360px;"
     >
   </a>
 </p>
 
-## Live Dashboard:
-
-Checkout the live dashboard here 👉🏻 [Live Dashboard](https://app.powerbi.com/groups/me/reports/f344c8d6-ebff-4f5f-92f0-1bb70df42e82/4e853dcd071f22c66389?experience=power-bi)
-
 ## Business Model
 
 <div style="text-align: center;">
   <img 
-    src="https://github.com/aditya-da-3/Business-Insights-360/blob/main/Images/BI%20360%20AtliQ%20Business%20Model.png" 
-    alt="Data Model Preview" 
+    src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/AtliQ%20Business%20Model.png" 
+    alt="Business Model" 
+    style="max-width: 100%; height: auto;"
+  >
+</div>
+
+## Product Range
+
+<div style="text-align: center;">
+  <img 
+    src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/AtliQ%20Product%20Range.png" 
+    alt="Product Range" 
     style="max-width: 100%; height: auto;"
   >
 </div>
 
 ## Problem Statement
 
-- AtliQ's attempt to expand in Latin America led to significant losses, as decisions were made on just excel surveys and intuition.
-
-- Rapid growth has made Excel-based data analysis outdated and inadequate for AtliQ’s needs.
-
-- The absence of a robust data analytics system prevents AtliQ from making clear, accurate, and fast decisions.
-
-- AtliQ faces fierce competition from Dale, which leverages advanced data analytics to gain insights on customer behavior, giving them a major competitive edge.
+- Management lacks sufficient insights for quick, data-driven decisions.
+  
+- AtliQ Hardware seeks to hire someone skilled in both tech and soft skills.
+  
+- Hiring decisions will be based on the results of the challenge.
+  
+- A SQL challenge is conducted to assess both technical and soft skills.
+  
+- They plan to expand the data analytics team with junior analysts.
 
 ## Objectives
 
-- To gather and analyze consumer data, set KPIs to track progress, and support AtliQ Hardware in Data  Driven Decision Making.
+- Provide clear, accurate insights for 10 business questions.
+  
+- Support top management in decision-making.
+  
+- Analyze data using SQL to identify key insights.
+  
+- Address ad hoc business requests with SQL queries.
+  
+- Present insights in a concise and actionable format for decision-making.
 
-- To Create a Interactive Dashboard using  Power BI to fulfill AtliQ’s Business needs.
+## Tools Used
 
-- Enable quick insights for businesses across markets by Building A 360° Dashboard which provides Insights About Finance, Sales, Marketing, Supply Chain & Executive View All Together .
+- SQL (My SQL ) for Data Analysis
+  
+- Microsoft Power BI for Visuals
+  
+- Canva For Presentation
+  
+- OBS Studio For Video Recording
 
-- To use advanced analytics and supply chain metrics to understand customer behavior and improve product and marketing strategies, helping AtliQ compete with Dale & increase its market share.
+## Dataset 
+
+Dimension Tables
+
+- dim_customers : Table containing detailed customer information.  
+- dim_products : Table containing detailed product information.
+
+Fact Tables
+
+- fact_gross_price : Product-wise gross price by fiscal year.  
+- fact_manufacturing_cost : Product-wise manufacturing cost by fiscal year.  
+- fact_pre_invoice_deductions : Product-wise pre-invoice discount by fiscal year.  
+- fact_sales_monthly : Monthly sales information by product.
 
 ## Data Model
 
 <div style="text-align: center;">
   <img 
-    src="https://github.com/aditya-da-3/Business-Insights-360/blob/main/Data%20Model/Data%20Model%20BI%20360.png" 
-    alt="Data Model Preview" 
+    src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Data%20Model/Data%20Model.png" 
+    alt="Data Model" 
     style="max-width: 100%; height: auto;"
   >
 </div>
 
-## Dashboard Preview
+## Ad Hoc Requests
 
-  <h3>Home Page</h3>
+<div style="text-align: center;">
   <img 
-    src="https://github.com/aditya-da-3/Business-Insights-360/blob/main/Images/BI%20360%20Home%20Page.png" 
-    alt="Home Page" 
-    style="max-width: 100%; height: auto;"
-  >
-  <hr>
-
-  <h3>Info Page</h3>
-  <img 
-    src="https://github.com/aditya-da-3/Business-Insights-360/blob/main/Images/BI%20360%20Info%20Page.png" 
-    alt="Info Page" 
-    style="max-width: 100%; height: auto;"
-  >
-  <hr>
-
-  <h3>Support Page</h3>
-  <img 
-    src="https://github.com/aditya-da-3/Business-Insights-360/blob/main/Images/BI%20360%20Supprt%20Page.png" 
-    alt="Support Page" 
-    style="max-width: 100%; height: auto;"
-  >
-  <hr>
-
-  <h3>Finance View</h3>
-  
-  <p>Get  P & L statement for any customer / product / country or aggregation of the above over any time period and More.</p>
-  <img 
-    src="https://github.com/aditya-da-3/Business-Insights-360/blob/main/Images/BI%20360%20Finance%20View.png" 
-    alt="Finance View" 
-    style="max-width: 100%; height: auto;"
-  >
-  <hr>
-
-  <h3>Sales View</h3>
-  
-  <p>Analyze the performance of your customer(s) over key metrics like Net Sales, Gross Margin and view the same in profitability / Growth matrix.</p>
-  <img 
-    src="https://github.com/aditya-da-3/Business-Insights-360/blob/main/Images/BI%20360%20Sales%20View.png" 
-    alt="Sales View" 
-    style="max-width: 100%; height: auto;"
-  >
-  <hr>
-
-  <h3>Marketing View</h3>
-  <p>Analyze the performance of your product(s) over key metrics like Net Sales, Gross Margin and view the same in profitability / Growth matrix.</p>
-  <img 
-    src="https://github.com/aditya-da-3/Business-Insights-360/blob/main/Images/BI%20360%20Marketing%20View.png" 
-    alt="Marketing View" 
-    style="max-width: 100%; height: auto;"
-  >
-  <hr>
-
-  <h3>Supply Chain View</h3>
-  <p>Get Forecast Accuracy, Net Error and risk profile for product, segment, category, customer etc.</p>
-  <img 
-    src="https://github.com/aditya-da-3/Business-Insights-360/blob/main/Images/BI%20360%20Supply%20Chain%20View.png" 
-    alt="Supply Chain View" 
-    style="max-width: 100%; height: auto;"
-  >
-  <hr>
-
-  <h3>Executive View</h3>
-  <p>A top level dashboard for executives consolidating top insights from all dimensions of business.</p>
-  <img 
-    src="https://github.com/aditya-da-3/Business-Insights-360/blob/main/Images/BI%20360%20Executive%20View.png" 
-    alt="Executive View" 
+    src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/ad-hoc-requests.pdf" 
+    alt="Ad Hoc Requests" 
     style="max-width: 100%; height: auto;"
   >
 </div>
 
-<h3>Feature Requests View</h3>
-  <p>A dashboard for feature Request Showing Top 5 Markets & Top / Bottom 5 Products Per Gross Margin % & Monthly / Yearly Trend of Post Deduction % </p>
-  <img 
-    src="https://github.com/aditya-da-3/Business-Insights-360/blob/main/Images/BI%20360%20Feature%20Request%20View.png" 
-    alt="Feature Requests View" 
-    style="max-width: 100%; height: auto;"
-  >
-</div>
+## SQL Queries
+
+Check Out here [SQl Queries](https://github.com/aditya-da-3/Ad-Hoc-Insights/tree/main/SQL%20Queries)
+
+## Query Output & Insights
   
-## Key Insights
+1. Provide the list of markets in which customer Atliq Exclusive operates its business in the APAC region.
 
-#### 1) Finance View
+<p align="center"> Output </p>
 
-- Net sales experienced a significant YOY increase, with peak demand consistently observed in November and December, driven by global festive seasons.
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/SQL%20Query%20Outputs/Ad%20Hoc%20Request%201.png">
+</p>
 
-- March 2020 sales fell below the previous year, likely impacted by COVID-19, while in 2022, net sales nearly achieved the target, missing by a narrow margin of just 1.5%.
+<p align="center" > Visual </p>
 
-- While net sales increased YOY, a decline in net profit highlights AtliQ's growth phase as it focuses on establishing its global market identity.
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20Hoc%20Request%201.png">
+</p>
 
-- The gross margin, which dropped in 2020 due to COVID-19, showed significant recovery by 2022, indicating that AtliQ is expanding its market share while steadily improving profitability.
+<p align="center"> Insights </p>
 
-#### 2) Sales View
+- In the APAC (Asia Pacific) region, AtliQ Exclusive operates in 8 different countries.
+  
+- India With Highest sales  nearly 2 million products sold.
+  
+- Japan With Lowest sales 63 thousand products sold.
 
-- A consistent 60:40 ratio between Total COGS and Gross Margin was observed across all fiscal years for AtliQ Hardware.
+2. What is the percentage of unique product increase in 2021 vs. 2020?
 
-- Amazon, AtliQ Exclusive, and AtliQ e-Store led in net sales across all regions and fiscal years; however, in 2022, Amazon and AtliQ e-Store fell short of the Gross Margin % target.
+<p align="center"> Output </p>
 
-- A GM % target tolerance of 10% highlights regions and customers where AtliQ Hardware missed the target by a significant margin.
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/SQL%20Query%20Outputs/Ad%20Hoc%20Request%202.png">
+</p>
 
-- In 2022, key focus markets include the Philippines, Germany, Brazil, Bangladesh, and Portugal, as they fell way below the 10% GM % tolerance threshold.
+<p align="center" > Visual </p>
 
-#### 3) Marketing View
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20Hoc%20Request%202.png">
+</p>
 
-- The Notebook segment consistently led in Net Sales ($) across all fiscal years.
+<p align="center"> Insights </p>
 
-- The Desktop segment, absent in 2019, showcased massive growth over the years in Net Profit % and Gross Margin %.
+- From 2020 to 2021, 89 new products were launched.
+  
+- Unique products increased by 36.33%.
+  
+- This shows AtliQ launched new products and variants across all categories to meet the growing diverse customer needs in FY 2021.
 
-- The Networking segment consistently topped Net Profit % across all fiscal years.
+3. Provide a report with all the unique product counts for each segment.
 
-- Keyboards and Laptops emerged as the most sold categories over the years.
+<p align="center"> Output </p>
 
-#### 4) Supply Chain View
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/SQL%20Query%20Outputs/Ad%20Hoc%20Request%203.png">
+</p>
 
-- The Accessories segment faced consistent stock shortages over the years, highlighting high demand and frequent shortages of keyboards, while the Desktop segment experienced excess inventory, likely due to higher laptop production.
+<p align="center" > Visual </p>
 
-- Over the 4-year period, November and December recorded the highest net errors, whether due to excess inventory or stockouts, reflecting fluctuating demand during these months.
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20Hoc%20Request%203.png">
+</p>
 
-- Forecast accuracy dropped from 86% to 72% in mid-2020 due to COVID-19, with a steady recovery observed by 2022.
+<p align="center"> Insights </p>
 
-#### 5) Executive View
+- Highest : Notebook , Accessories , Peripherals Comprising 82% of the total product base
+  
+- Lowest : Storage , Networking , Desktop with 18% of the total product base
+  
+- This is due to the majority of segments Have Categories such as laptops, mouse, keyboards, graphic cards, processors and motherboards, being widely used and having recurring requirements.
 
-- In 2022, the PC division contributed the highest revenue at 61%, followed by Peripherals & Accessories at 36%, and Networking & Storage at 2.5%.
+4. Which segment had the most increase in unique products in 2021 vs 2020?
 
-- Retailers accounted for 71% of revenue, followed by 18% from direct sales and 10% from distributors in 2022.
+<p align="center"> Output </p>
 
-- Amazon emerged as the top customer, while laptop variants from the Desktop segment were the top products across all years.
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/SQL%20Query%20Outputs/Ad%20Hoc%20Request%204.png">
+</p>
 
-- In terms of revenue contribution, nearly 75% came from three subzones: North America (27%), India (25%), and Rest of Asia (21%).
+<p align="center" > Visual </p>
 
-- Dale leads the PC market with a 22% share, while AtliQ, absent until 2020, achieved a notable 5.9% market share by 2022, reflecting its growing global presence.
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20hoc%20Request%204.png">
+</p>
 
-- Yearly trends show substantial YOY growth in net sales, consistent GM %, and steady market share and net profit until 2020. From 2021, market share slightly increased, while net profit saw a slight decline.
-    
+<p align="center"> Insights </p>
+
+- Highest: Accessories – 34 new products added, a 50% rise.
+  
+- The storage & networking segment showed a slight increase in product offerings.
+  
+- The Desktop segment is rising in demand with 15 new products added, reflecting a 214% rise, doubling the previous year.
+
+5. Get the products that have the highest and lowest manufacturing costs
+
+<p align="center"> Output </p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/SQL%20Query%20Outputs/Ad%20Hoc%20Request%205.png">
+</p>
+
+<p align="center" > Visual </p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20Hoc%20Request%205.png">
+</p>
+
+<p align="center"> Insights </p>
+
+- Highest Cost:- Personal DesktopAQ HOME Allin1 Gen 2 (Plus 3) Variant
+- Lowest Cost:- Mouse AQ Master wired x1 Ms (Standard 1) Variant
+
+6. Generate a report which contains the top 5 customers who received an average high Pre Invoice Discount %  for the fiscal year 2021 and in the Indian market.
+
+<p align="center"> Output </p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/SQL%20Query%20Outputs/Ad%20Hoc%20Request%206.png">
+</p>
+
+<p align="center" > Visual </p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20Hoc%20Request%206.png">
+</p>
+
+<p align="center"> Insights </p>
+
+- Flipkart Has the Highest Avg Discount (30.83 % ) Between The Top 5
+- The average discount percentage is nearly the same for all top 5 customers Showing that AtliQ offers a similar discount rate to its  customers.
+
+7. Get the complete report of the Gross sales amount for the customer Atliq Exclusive for each month.
+
+<p align="center"> Output </p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/SQL%20Query%20Outputs/Ad%20Hoc%20Request%207.png">
+</p>
+
+<p align="center" > Visual </p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20Hoc%20Request%207.png">
+</p>
+
+<p align="center"> Insights </p>
+
+- Q3 2020 sales were low due to COVID-19 lockdowns, but AtliQ successfully recovered overall.
+  
+- The graph shows AtliQ’s rapid growth, with a 100%+ year-over-year increase each month.
+  
+- In 2020, March–May sales fell below a million, far under the 12.66 million average.
+  
+- Sales remained above average in 2021, peaking at 32.25 million in November.
+  
+- Sales recovered from September to November 2020, peaking in November.
+  
+- March and May 2021 saw a remarkable 1000%+ sales increase compared to the previous year.
+
+8. In which quarter of 2020, got the maximum total sold quantity?
+
+<p align="center"> Output </p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/SQL%20Query%20Outputs/Ad%20Hoc%20Request%208.png">
+</p>
+
+<p align="center" > Visual </p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20Hoc%20Request%208.png">
+</p>
+
+<p align="center"> Insights </p>
+
+- Q1 recorded the highest quantity sold (7 Miliion)  in FY 2020.
+- Q3 had the lowest quantity sold ( 2 Million) in FY 2020 due to global lockdowns from the COVID-19 pandemic.
+- Sold quantity dropped by 5 million (a 250% decrease) from Q1 to Q3 due to COVID but recovered 150% of that loss in Q4 post-COVID.
+
+9. Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution?
+
+<p align="center"> Output </p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/SQL%20Query%20Outputs/Ad%20Hoc%20Request%209.png">
+</p>
+
+<p align="center" > Visual </p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20Hoc%20Request%209.png">
+</p>
+
+<p align="center"> Insights </p>
+
+- The retailer channel, including stores like Croma and Amazon, contributed the largest share of 73.22%, with nearly $2 billion in gross sales out of three channels.
+
+- The direct and distributor channels contributed the remaining 26.79% of sales during FY 2021.
+
+- This shows that the majority of AtliQ's business is with retailers, so they can expand their customer base by offering tailored discounts and promoting B2B sales.
+
+
+
+10. Get the Top 3 products in each division that have a high total sold quantity in the fiscal year 2021?
+
+<p align="center"> Output </p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/SQL%20Query%20Outputs/Ad%20Hoc%20Request%2010.png">
+</p>
+
+<p align="center" > Visuals </p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20Hoc%20Request%2010%20A.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20Hoc%20Request%2010%20B.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20Hoc%20Request%2010%20C.png">
+</p>
+
+<p align="center"> Insights </p>
+
+- The top 3 products in the P&A division are different mouse varieties, highlighting strong demand in this segment.
+
+- In the N&S division, the top 3 products are various pendrive varieties, indicating strong demand in this segment.
+
+- Personal laptops are the top 3 products in the PC division, reflecting high demand in this segment.
+
+- In terms of quantity sold, pendrives lead, followed by mouse, while PCs have the lowest sales, with all top 3 products showing similar sales figures within each division.
+      
 ## Recommendations
 
-- Improve supply chain management to avoid stockouts in Accessories and reduce excess inventory in the Desktop segment through demand-driven production.
+- Customizing sales and marketing strategies for each country will help AtliQ align with local customer needs, boosting market presence and mirroring the approach of top competitors.
 
-- Focus on underperforming regions like the Philippines, Germany, and Brazil by optimizing pricing and offering targeted promotions to boost Gross Margin %.
+- Regularly updating product offerings based on customer trends ensures AtliQ remains relevant in a rapidly evolving market.
 
-- Invest in advanced forecasting tools to enhance accuracy during peak demand months like November and December.
+- Growing the product lineup in Networking, Storage, and Desktop segments taps into currently underserved customer bases and captures additional demand.
 
-- Strengthen retail partnerships, which drive 71% of revenue, while expanding direct sales and distributor networks for diversification.
+- Streamlining manufacturing costs and introducing discount structures for long-term contracts can improve profit margins while enhancing customer loyalty.
 
-- Compete aggressively with Dale by introducing innovative features, competitive pricing, and impactful marketing to grow market share.
-
-- Allocate more resources to high-performing segments like Notebooks and Networking while expanding product variants in high-demand categories like laptops and accessories.
+- Identifying seasonal sales patterns and strengthening distributor relationships through CRM and profit-sharing will support steady and consistent growth.
