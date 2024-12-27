@@ -123,21 +123,21 @@ Check Out here [SQl Queries](https://github.com/aditya-da-3/Ad-Hoc-Insights/tree
 
 ## Query Output & Insights
   
-1. Provide the list of markets in which customer Atliq Exclusive operates its business in the APAC region.
+#### 1. Provide the list of markets in which customer Atliq Exclusive operates its business in the APAC region.
 
-<p align="center"> Output </p>
+<p align="center"> **Output** </p>
 
 <p align="center">
   <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/SQL%20Query%20Outputs/Ad%20Hoc%20Request%201.png">
 </p>
 
-<p align="center" > Visual </p>
+<p align="center" > **Visual** </p>
 
 <p align="center">
   <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20Hoc%20Request%201.png">
 </p>
 
-<p align="center"> Insights </p>
+<p align="center"> **Insights** </p>
 
 - In the APAC (Asia Pacific) region, AtliQ Exclusive operates in 8 different countries.
   
@@ -145,7 +145,7 @@ Check Out here [SQl Queries](https://github.com/aditya-da-3/Ad-Hoc-Insights/tree
   
 - Japan With Lowest sales 63 thousand products sold.
 
-2. What is the percentage of unique product increase in 2021 vs. 2020?
+#### 2. What is the percentage of unique product increase in 2021 vs. 2020?
 
 <p align="center"> Output </p>
 
@@ -167,7 +167,7 @@ Check Out here [SQl Queries](https://github.com/aditya-da-3/Ad-Hoc-Insights/tree
   
 - This shows AtliQ launched new products and variants across all categories to meet the growing diverse customer needs in FY 2021.
 
-3. Provide a report with all the unique product counts for each segment.
+#### 3. Provide a report with all the unique product counts for each segment.
 
 <p align="center"> Output </p>
 
@@ -189,7 +189,7 @@ Check Out here [SQl Queries](https://github.com/aditya-da-3/Ad-Hoc-Insights/tree
   
 - This is due to the majority of segments Have Categories such as laptops, mouse, keyboards, graphic cards, processors and motherboards, being widely used and having recurring requirements.
 
-4. Which segment had the most increase in unique products in 2021 vs 2020?
+#### 4. Which segment had the most increase in unique products in 2021 vs 2020?
 
 <p align="center"> Output </p>
 
@@ -211,7 +211,7 @@ Check Out here [SQl Queries](https://github.com/aditya-da-3/Ad-Hoc-Insights/tree
   
 - The Desktop segment is rising in demand with 15 new products added, reflecting a 214% rise, doubling the previous year.
 
-5. Get the products that have the highest and lowest manufacturing costs
+#### 5. Get the products that have the highest and lowest manufacturing costs
 
 <p align="center"> Output </p>
 
@@ -230,7 +230,7 @@ Check Out here [SQl Queries](https://github.com/aditya-da-3/Ad-Hoc-Insights/tree
 - Highest Cost:- Personal DesktopAQ HOME Allin1 Gen 2 (Plus 3) Variant
 - Lowest Cost:- Mouse AQ Master wired x1 Ms (Standard 1) Variant
 
-6. Generate a report which contains the top 5 customers who received an average high Pre Invoice Discount %  for the fiscal year 2021 and in the Indian market.
+#### 6. Generate a report which contains the top 5 customers who received an average high Pre Invoice Discount %  for the fiscal year 2021 and in the Indian market.
 
 <p align="center"> Output </p>
 
@@ -249,7 +249,7 @@ Check Out here [SQl Queries](https://github.com/aditya-da-3/Ad-Hoc-Insights/tree
 - Flipkart Has the Highest Avg Discount (30.83 % ) Between The Top 5
 - The average discount percentage is nearly the same for all top 5 customers Showing that AtliQ offers a similar discount rate to its  customers.
 
-7. Get the complete report of the Gross sales amount for the customer Atliq Exclusive for each month.
+#### 7. Get the complete report of the Gross sales amount for the customer Atliq Exclusive for each month.
 
 <p align="center"> Output </p>
 
@@ -277,7 +277,7 @@ Check Out here [SQl Queries](https://github.com/aditya-da-3/Ad-Hoc-Insights/tree
   
 - March and May 2021 saw a remarkable 1000%+ sales increase compared to the previous year.
 
-8. In which quarter of 2020, got the maximum total sold quantity?
+#### 8. In which quarter of 2020, got the maximum total sold quantity?
 
 <p align="center"> Output </p>
 
@@ -297,7 +297,7 @@ Check Out here [SQl Queries](https://github.com/aditya-da-3/Ad-Hoc-Insights/tree
 - Q3 had the lowest quantity sold ( 2 Million) in FY 2020 due to global lockdowns from the COVID-19 pandemic.
 - Sold quantity dropped by 5 million (a 250% decrease) from Q1 to Q3 due to COVID but recovered 150% of that loss in Q4 post-COVID.
 
-9. Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution?
+#### 9. Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution?
 
 <p align="center"> Output </p>
 
@@ -319,9 +319,7 @@ Check Out here [SQl Queries](https://github.com/aditya-da-3/Ad-Hoc-Insights/tree
 
 - This shows that the majority of AtliQ's business is with retailers, so they can expand their customer base by offering tailored discounts and promoting B2B sales.
 
-
-
-10. Get the Top 3 products in each division that have a high total sold quantity in the fiscal year 2021?
+#### 10. Get the Top 3 products in each division that have a high total sold quantity in the fiscal year 2021?
 
 <p align="center"> Output </p>
 
