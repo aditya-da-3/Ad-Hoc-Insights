@@ -93,7 +93,7 @@ Known for innovation, AtliQ has expanded worldwide, bringing advanced technology
 
 Dimension Tables
 
-    dim_customers : Table containing detailed customer information.  
+  dim_customers : Table containing detailed customer information.  
                            dim_products : Table containing detailed product information.
 
 Fact Tables
