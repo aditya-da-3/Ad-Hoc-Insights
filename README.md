@@ -20,7 +20,7 @@ Known for innovation, AtliQ has expanded worldwide, bringing advanced technology
 - [Data Model](#data-model)
 - [Ad Hoc Requests](#ad-hoc-requests)
 - [SQL Queries](#sql-queries)
-- [Query Output & Insights](#query-output-%-insights)
+- [Query Output & Insights](#query-output--insights)
 - [Recommendations](#recommendations)
 
 ## Project Presentation (Video)
@@ -125,19 +125,19 @@ Check Out here [SQl Queries](https://github.com/aditya-da-3/Ad-Hoc-Insights/tree
   
 #### 1. Provide the list of markets in which customer Atliq Exclusive operates its business in the APAC region.
 
-<p align="center"> **Output** </p>
+<p align="center"> Output </p>
 
 <p align="center">
   <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/SQL%20Query%20Outputs/Ad%20Hoc%20Request%201.png">
 </p>
 
-<p align="center" > **Visual** </p>
+<p align="center" > Visual </p>
 
 <p align="center">
   <img src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Query%20Outputs%20Visualizations/Ad%20Hoc%20Request%201.png">
 </p>
 
-<p align="center"> **Insights** </p>
+<p align="center"> Insights </p>
 
 - In the APAC (Asia Pacific) region, AtliQ Exclusive operates in 8 different countries.
   
