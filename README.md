@@ -115,13 +115,7 @@ Fact Tables
 
 ## Ad Hoc Requests
 
-<div style="text-align: center;">
-  <img 
-    src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/ad-hoc-requests.pdf" 
-    alt="Ad Hoc Requests" 
-    style="max-width: 100%; height: auto;"
-  >
-</div>
+Check Out here [Ad Hoc Requests](https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/ad-hoc-requests.pdf)
 
 ## SQL Queries
 
