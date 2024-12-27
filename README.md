@@ -93,15 +93,15 @@ Known for innovation, AtliQ has expanded worldwide, bringing advanced technology
 
 Dimension Tables
 
-   dim_customers : Table containing detailed customer information.  
-   dim_products : Table containing detailed product information.
+    dim_customers : Table containing detailed customer information.  
+    dim_products : Table containing detailed product information.
 
 Fact Tables
 
-   fact_gross_price : Product-wise gross price by fiscal year.  
-   fact_manufacturing_cost : Product-wise manufacturing cost by fiscal year.  
-   fact_pre_invoice_deductions : Product-wise pre-invoice discount by fiscal year.  
-   fact_sales_monthly : Monthly sales information by product.
+    fact_gross_price : Product-wise gross price by fiscal year.  
+    fact_manufacturing_cost : Product-wise manufacturing cost by fiscal year.  
+    fact_pre_invoice_deductions : Product-wise pre-invoice discount by fiscal year.  
+    fact_sales_monthly : Monthly sales information by product.
 
 ## Data Model
 
