@@ -28,7 +28,7 @@ Known for innovation, AtliQ has expanded worldwide, bringing advanced technology
 <p align="center">
   <a href="https://youtu.be/5VnS5gIGHRw?si=SdxxmJ7hCwe6NJ3_" target="_blank" rel="noopener noreferrer">
     <img 
-      src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Ad%20Hoc%20Insights%20Youtube%20Thumbnail.png" 
+      src="https://github.com/aditya-da-3/Ad-Hoc-Insights/blob/main/Images/Ad%20Hoc%20Insights%20Thumbnail.png" 
       alt="Presentation Preview" 
       style="width: 70%; max-width: 360px;"
     >
