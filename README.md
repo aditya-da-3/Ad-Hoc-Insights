@@ -25,6 +25,8 @@ Known for innovation, AtliQ has expanded worldwide, bringing advanced technology
 
 ## Project Presentation (Video)
 
+Click On Image TO Launch Project Video
+
 <p align="center">
   <a href="https://youtu.be/5VnS5gIGHRw?si=SdxxmJ7hCwe6NJ3_" target="_blank" rel="noopener noreferrer">
     <img 
